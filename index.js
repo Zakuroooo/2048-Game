@@ -192,4 +192,9 @@ function keyUpHandle(event){
     }
 }
 document.body.addEventListener('keyup', keyUpHandle)
-
+// document.body.addEventListener('keyup', keyUpHandle)
+// function checkForWin(){
+//   let allBlocks = document.querySelectorAll(`.grid > div`);
+//   let winningBlocks = Array.from(allBlocks).filter((a) => a.textContent == 2048);
+//   return winningBlocks.length != 0;
+// }
